@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart</title>
+    <link rel="stylesheet" href="styles/cart.css">
+</head>
+<body>
+    <!-- عنوان الصفحة -->
+    <h1 class="cart-title">My Cart</h1>
+
+    <section class="cart-container">
+        <!-- عنصر المنتج الأول -->
+        <div class="cart-item">
+            <img src="cart images/5983250096483057954.jpg" alt="Product Image">
+            <div class="item-info">
+                <h2>Wooden Chair</h2>
+                <p>$120</p>
+            </div>
+            <div class="item-quantity">
+                <button>-</button>
+                <input type="number" value="1">
+                <button>+</button>
+            </div>
+            <button class="remove-btn">X</button>
+        </div>
+
+        <!-- عنصر المنتج الثاني -->
+        <div class="cart-item">
+            <img src="cart images/5983250096483057955.jpg" alt="Product Image">
+            <div class="item-info">
+                <h2>Classic Table</h2>
+                <p>$150</p>
+            </div>
+            <div class="item-quantity">
+                <button>-</button>
+                <input type="number" value="1">
+                <button>+</button>
+            </div>
+            <button class="remove-btn">X</button>
+        </div>
+
+        <!--التوتال-->
+        <div class="total-section">
+            <h3>Total: $270</h3>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </section>
+</body>
+</html>
